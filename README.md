@@ -1,27 +1,22 @@
-# Truck Cargo Manager
+## 🚚 Truck Cargo Manager
 
 A simple logistics-style project written in Python using Object-Oriented Programming (OOP).
 
-## Description
+## 🧠 Why I Built This
 
-This project simulates a truck that can carry cargo under specific weight and volume limits.  
-It includes logic to:
-- add and remove cargo,
-- calculate total load,
-- prevent overloads,
-- and display detailed truck status.
+A compact project to test how OOP can model systems with rules, limits, and edge cases — beyond just storing data.
 
-## Technologies
+## 🔧 Features
+- Add and remove cargo
+- Calculate total load 
+- Prevent overloads 
+- Display detailed truck status
 
-- Python 3.x
-
-## Features
-
-- `Cargo` class: defines individual cargo units with volume and weight
-- `Truck` class: manages a list of cargo, enforces capacity limits, and calculates current load
-- Error handling using `ValueError`
-- Clear string output for tracking cargo status
-
+## 🧱 Tech & Concepts
+- Python OOP (multiple classes, encapsulation, instance validation)
+- Input simulation for cargo weights and dimensions
+- Error handling with ValueError and custom safeguards
+- Formatted output to track and display state clearly
 ## Example
 
 ```python
@@ -44,6 +39,8 @@ Volume capacity: 10 m3
 Total weight: 1200, Total volume: 5
 ```
 
-## Author
+## 👩‍💻 Author
 
-Created by Kateryna Babakova as part of her Python OOP learning path.
+Created by Kateryna Babakova (https://github.com/katebabakova444)
+This project is part of my backend development journey.
+View my full portfolio: kateryna-portfolio (https://github.com/katebabakova444/kateryna-portfolio)
